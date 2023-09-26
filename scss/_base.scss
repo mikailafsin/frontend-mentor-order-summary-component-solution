@@ -1,0 +1,38 @@
+html {
+    font-size: 14px;
+
+    @media only screen and (min-width: 1440px) {
+        font-size: 16px;
+    }
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    font: {
+        family: $redHatDisplayFf;
+        weight: 500;
+    }
+
+    background: {
+        color: $paleBlue;
+        image: url(../images/pattern-background-mobile.svg);
+        repeat: no-repeat;
+        size: contain;
+    }
+
+    @media only screen and (min-width: 1440px) {
+        background-image: url(../images/pattern-background-desktop.svg);
+    }
+
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    margin-inline: auto;
+}

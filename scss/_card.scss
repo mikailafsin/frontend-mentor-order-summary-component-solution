@@ -1,0 +1,32 @@
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 15px 40px -30px $brightBlue;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__content {
+        padding: 2rem;
+
+        @media only screen and (min-width: 1440px) {
+            padding: 3rem;
+        }
+    }
+
+    &__title {
+        color: $darkBlue;
+        margin-bottom: 1rem;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    &__desc {
+        color: $desaturedBlue;
+        margin-bottom: 2rem;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
