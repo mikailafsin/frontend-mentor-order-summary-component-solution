@@ -130,7 +130,7 @@ body {
   font-size: 0.875rem;
   font-weight: 900;
 }
-.card-plan__link:hover {
+.card-plan__link:hover, .card-plan__link:focus {
   text-decoration: none;
   opacity: 0.8;
 }
@@ -152,14 +152,14 @@ body {
   -webkit-box-shadow: 0px 5px 30px -5px hsl(245, 75%, 52%);
           box-shadow: 0px 5px 30px -5px hsl(245, 75%, 52%);
 }
-.button--proceed:hover {
+.button--proceed:active, .button--proceed:focus {
   opacity: 0.8;
 }
 .button--cancel {
   color: hsl(224, 23%, 55%);
   font-weight: 900;
 }
-.button--cancel:hover {
+.button--cancel:active, .button--cancel:focus {
   color: hsl(223, 47%, 23%);
 }
 

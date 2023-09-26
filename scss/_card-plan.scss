@@ -31,7 +31,8 @@
             weight: 900;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
             text-decoration: none;
             opacity: .8;
         }
